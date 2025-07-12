@@ -44,7 +44,7 @@ Set these API keys directly in the code (`agent.py`), or configure them as envir
 ---
 
 ## 🚀 Getting Started
-### 🔑 1. API Keys Required
+### 🔑API Keys Required
 
 To run this project, you must provide the following API keys:
 
@@ -60,12 +60,12 @@ Set these API keys directly in the code (`agent.py`), or configure them as envir
 
 
 
-### 2. Install dependencies
+### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Prepare your data
+### 2. Prepare your data
 I’ve only provided a few sample dish entries as examples.
 You are free to add your own Italian dish data in the same format in the`menu_data.csv`. 
 Example format:
@@ -75,7 +75,7 @@ Italian,English
 Spaghetti alla Carbonara,"A Roman pasta dish made with eggs, cheese, pancetta, and black pepper."
 ```
 
-### 4. Run the app
+### 3. Run the app
 ```bash
 streamlit run app.py
 ```
